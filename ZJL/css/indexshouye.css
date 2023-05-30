@@ -56,14 +56,74 @@ header .box {
 }
 
 .spa {
-    /* background: url(../); */
+    width: 2rem;
+    height: 3rem;
+    position: absolute;
+    background: url(../../image/index/seach.jpg) no-repeat .4rem .7rem;
+    background-size: 100%;
 }
 
 .ipt {
     width: 28.9rem;
     height: 3.5rem;
-    border-radius: 6px;
-    padding-left: 0.33rem;
+    border-radius: .6rem;
+    padding-left: 1.33rem;
+    outline: none;
+    padding: 0 4rem;
+    box-sizing: border-box;
+}
+
+/* 中间*/
+.zhongjian {
+    width: 100%;
+    height: 14rem;
+    background-color: #ff8a00;
+}
+
+.zhongjian ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.zhongjian ul li {
+    width: 7rem;
+    height: 100%;
+    text-align: center;
+
+}
+
+.zhongjian ul li:nth-of-type(1) {
+    background: url(../../image/index/index_03.png)no-repeat 0rem 2rem;
+    background-size: 100%;
+}
+
+.zhongjian ul li:nth-of-type(2) {
+    background: url(../../image/index/index_05.png)no-repeat 0rem 2rem;
+    background-size: 100%;
+}
+
+.zhongjian ul li:nth-of-type(3) {
+    background: url(../../image/index/index_07.png)no-repeat 0rem 2rem;
+    background-size: 100%;
+}
+
+.zhongjian ul li:nth-of-type(4) {
+    background: url(../../image/index/index_09.png)no-repeat 0rem 2rem;
+    background-size: 100%;
+}
+
+
+
+.zhongjian ul li a {
+    display: inline-block;
+    padding-top: 10rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+
 }
 
 /* 底部 */
