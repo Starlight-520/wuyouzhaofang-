@@ -11,7 +11,51 @@
 </head>
 
 <body>
+    <!-- 头部 -->
+    <header>
+        <div class="box">
+            <img src="../image/index/logo.jpg" alt="">
+        </div>
+        <div class="box box1">
+            <div class="box2">
+                <img src="../image/index/my.jpg" alt="">
+            </div>
+            <div class="box2">
+                <img src="../image/index/xiazai.jpg" alt="">
+            </div>
 
+        </div>
+    </header>
+    <!-- 次导航 -->
+    <nav>
+        <p>
+            <a href="#"><span class="B">首页</span></a>
+            >
+            <a href="#"><span class="chang">找回密码</span></a>
+            <!-- > -->
+            <!-- <a href="#"><span class="cahng">注册</span></a> -->
+        </p>
+    </nav>
+    <!-- 内容 -->
+    <main>
+        <ul class="neiRong">
+            <li class="item">
+                <input type="text" placeholder="请输入手机号码">
+                <span class="date" onclick="shijian()">发送验证码</span>
+            </li>
+            <li class="item">
+                <input type="text" placeholder="请输入短信中的验证码">
+            </li>
+            <li class="item">
+                <input type="password" placeholder="请输入新密码">
+            </li>
+            <li class="item">
+                <input type="password" placeholder="请输入确认密码">
+            </li>
+        </ul>
+        <button class="zhuce">提交</button>
+    </main>
 </body>
 
 </html>
+<script src="./JS/date.js"></script>

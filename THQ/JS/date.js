@@ -22,6 +22,7 @@ var zhuce_ = document.querySelector('.zhuce');
 var input_0 = document.getElementsByTagName('input')[0];
 var input_1 = document.getElementsByTagName('input')[1];
 var input_2 = document.getElementsByTagName('input')[2];
+var input_3 = document.getElementsByTagName('input')[3];
 
 input_0.onchange = function () {
     var dui = /^1[3-9][0-9]{9}$/
@@ -48,5 +49,14 @@ input_2.onchange = function () {
         alert('密码输入正确')
     } else {
         alert('输入有误，请重新输入，密码为6位由数字、字母、下划线组成')
+    }
+}
+input_3.onchange = function () {
+    var dui3 = input_2.value
+    var si3 = input_3.value
+    if (si3 == dui3 && !si3 == '') {
+        alert('密码输入正确')
+    } else {
+        alert('输入有误，两次密码不一致')
     }
 }
