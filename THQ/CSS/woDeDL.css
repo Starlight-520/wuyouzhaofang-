@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+/* 头部 */
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #ff8a00;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .box {
+    width: 30%;
+    height: 100%;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box2 {
+    height: 100%;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 次导航 */
+nav {
+    width: 100%;
+    height: 4.2rem;
+    border-bottom: .1rem solid #c5c5c5;
+    background-color: #fff;
+
+}
+
+nav>p {
+    padding-left: 1.8rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+
+}
+
+nav>p a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+}
+
+nav>p a .B {
+    font-weight: 600;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 16.4rem;
+    background: url(../../image/my/bg2.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.banner .touXiang {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 15.5rem;
+}
+
+.banner p {
+    position: absolute;
+    left: 11.3rem;
+    bottom: 3rem;
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* 主体 */
+main {
+    width: 100%;
+    padding: 0rem 2.3rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+main ul {
+    list-style: none;
+    width: 100%;
+}
+
+main ul li {
+    width: 100%;
+    height: 5.6rem;
+    line-height: 5.6rem;
+    border-bottom: 1px solid #dcdcdc;
+    background: url(../../image/my/right.png) right center no-repeat;
+    background-size: .7rem 1.4rem;
+}
+
+/* main ul li .img {
+    display: inline-block;
+    width: 1.9rem;
+    height: 1.9rem;
+}
+
+main ul li:nth-of-type(1) .img {
+    background: url(../../image/my/icon1.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+main ul li:nth-of-type(2) .img {
+    background: url(../../image/my/icon2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+main ul li:nth-of-type(3) .img {
+    background: url(../../image/my/icon3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+main ul li:nth-of-type(4) .img {
+    background: url(../../image/my/icon4.png) no-repeat;
+    background-size: 100% 100%;
+} */
+
+
+main ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #666;
+
+}
+
+/* 退出登录 */
+.tuiChu {
+    display: inline-block;
+    width: 90%;
+    height: 4.4rem;
+    background: #ffffff;
+    color: #ff8a00;
+    border: 1px solid #dcdcdc;
+    text-align: center;
+    line-height: 3.8rem;
+    margin: 3rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
