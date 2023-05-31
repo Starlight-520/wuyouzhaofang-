@@ -126,6 +126,229 @@ header .box {
 
 }
 
+/*看房咨询 */
+.list {
+    padding: 2rem 0;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.list img {
+    width: 100%;
+}
+
+/* 热门推荐 */
+.listone {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    color: white;
+    background-color: #ff8a00;
+}
+
+.listone span:nth-of-type(1) {
+    font-size: 2rem;
+}
+
+.listone span:nth-of-type(2) {
+    font-size: 1.2rem;
+}
+
+.listtwo {
+    width: 100%;
+    padding: 0 2rem;
+    box-sizing: border-box;
+
+}
+
+.listqq {
+    list-style: none;
+}
+
+.listqq li {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: .1rem solid red;
+    padding: 3rem 0;
+}
+
+.listqq li:nth-of-type(3) {
+    border-bottom: none;
+}
+
+.listqq li img {
+    height: 100%;
+}
+
+.text1 {
+    width: 60%;
+}
+
+.text1 h3 {
+    font-size: 2.4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text1 p {
+    padding: .5rem 0;
+}
+
+.text1 p:nth-of-type(2) {
+    color: grey;
+}
+
+.text1 p:nth-of-type(1) span {
+    float: right;
+    color: #ff8a00;
+    font-size: 1.6rem;
+
+}
+
+.text1 p:nth-of-type(2) span {
+    float: right;
+    font-size: 1.6rem;
+    /* color: #ff8a00; */
+}
+
+
+.text1 p a {
+    text-decoration: none;
+    color: #849aae;
+    padding: .3rem;
+    font-size: 1.4rem;
+    background: #f4f7f9;
+}
+
+/* 热门关注 */
+.oo {
+    background-color: rgba(213, 211, 211, 0.5);
+    height: 1rem;
+}
+
+.lithree {
+    width: 100%;
+}
+
+.title {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    line-height: 6rem;
+}
+
+.title li {
+    width: 50%;
+    text-align: center;
+    border-bottom: .1rem solid #ff8a00;
+}
+
+.title li a {
+    text-decoration: none;
+    color: #ff8a00;
+    font-size: 2rem;
+}
+
+.tt a {
+    color: rgb(40, 40, 40) !important;
+}
+
+.re {
+    border-bottom: .2rem solid #ff8a00 !important;
+
+}
+
+/* 热关下面 */
+.three {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.three ul {
+    padding: 2rem;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.three ul li {
+    padding: 1rem 0;
+}
+
+.three ul a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.4rem;
+}
+
+/* 透明盒子 */
+.dr {
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.divflet {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-left: 2.5rem;
+}
+
+.divflet1 img {
+    width: 4rem;
+}
+
+.divflet2 {
+    color: white;
+    margin-top: -.8rem;
+}
+
+.divflet2 p {
+    font-size: 2.2rem;
+}
+
+.divflet2 span {
+    font-size: 1.4rem;
+}
+
+.divright {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff8a00;
+}
+
+.divright a {
+    margin-left: 2rem;
+
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
 /* 底部 */
 footer {
     width: 100%;
