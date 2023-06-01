@@ -42,7 +42,7 @@
     </section>
     <!-- table切换 -->
     <section class="tab">
-        <ul class="list">
+        <ul class="list" onclick="xianShi()">
             <li>
                 <h2>
                     <a href="#">区域
@@ -72,66 +72,68 @@
                 </h2>
             </li>
         </ul>
-        <!-- <section class="yincang">
+        <section class="yincang">
             <ul class="somlist">
-                <li>
+                <li class="dianji active">
                     <h2>
                         <a href="#">区域
                             <span class="active"></span>
                         </a>
                     </h2>
                 </li>
-                <li>
+                <li class="dianji">
                     <h2>
                         <a href="#">月租
                             <span class="active"></span>
                         </a>
                     </h2>
                 </li>
-                <li>
+                <li class="dianji">
                     <h2>
                         <a href="#">房型
                             <span class="active"></span>
                         </a>
                     </h2>
                 </li>
-                <li>
+                <li class="dianji">
                     <h2>
                         <a href="#">更多
-                            <span class="active"></span>
+                            <span></span>
                         </a>
                     </h2>
                 </li>
 
             </ul>
             <ul class="suoyou">
-                <li class="lione">
-                    <div class="lionezuo">
-                        <h2 class="bianhuan">区域</h2>
-                        <h2>地铁</h2>
-                    </div>
-                    <div class="lioneyou">
-                        <ul>
-                            <li><a href="#">附近</a></li>
-                            <li><a href="#">不限</a></li>
-                            <li><a href="#" class="bianhuan">朝阳</a></li>
-                            <li><a href="#">海淀</a></li>
-                            <li><a href="#">昌平</a></li>
-                            <li><a href="#">丰台</a></li>
-                            <li><a href="#">石景山</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#" class="bianhuan">不限</a></li>
-                            <li><a href="#">安贞</a></li>
-                            <li><a href="#">奥林匹克公园</a></li>
-                            <li><a href="#">百子湾</a></li>
-                            <li><a href="#">北工大</a></li>
-                            <li><a href="#">北苑</a></li>
-                            <li><a href="#">CBD</a></li>
-                        </ul>
+                <li class="ggt qiehuan">
+                    <div class="lione">
+                        <div class="lionezuo">
+                            <h2 class="bianhuan">区域</h2>
+                            <h2>地铁</h2>
+                        </div>
+                        <div class="lioneyou">
+                            <ul>
+                                <li><a href="#">附近</a></li>
+                                <li><a href="#">不限</a></li>
+                                <li><a href="#" class="bianhuan">朝阳</a></li>
+                                <li><a href="#">海淀</a></li>
+                                <li><a href="#">昌平</a></li>
+                                <li><a href="#">丰台</a></li>
+                                <li><a href="#">石景山</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#" class="bianhuan">不限</a></li>
+                                <li><a href="#">安贞</a></li>
+                                <li><a href="#">奥林匹克公园</a></li>
+                                <li><a href="#">百子湾</a></li>
+                                <li><a href="#">北工大</a></li>
+                                <li><a href="#">北苑</a></li>
+                                <li><a href="#">CBD</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </li>
-                <li class="litwo">
+                <li class="litwo qiehuan">
                     <ul>
                         <li><a href="#">不限</a></li>
                         <li><a href="#">100万以下</a></li>
@@ -142,8 +144,74 @@
                         <li><a href="#">自定义价格</a></li>
                     </ul>
                 </li>
+                <li class="lithree qiehuan">
+                    <ul>
+                        <li>不限</li>
+                        <li>
+                            1室 <span></span>
+                        </li>
+                        <li>
+                            2室 <span class="zhengfang"></span>
+                        </li>
+                        <li>
+                            3室 <span></span>
+                        </li>
+                        <li>
+                            4室 <span></span>
+                        </li>
+                        <li>
+                            5室 <span></span>
+                        </li>
+                        <li><a class="btnOK" href="#">确定</a></li>
+                    </ul>
+                </li>
+                <li class="lifours qiehuan">
+                    <ul class="hj">
+                        <li class="jj">
+                            <h2>区域</h2>
+                            <ul class="childList">
+                                <li>南</li>
+                                <li>南北</li>
+                                <li>东</li>
+                                <li>西</li>
+                                <li>北</li>
+                            </ul>
+                        </li>
+                        <li class="jj">
+                            <h2>面积(平方)</h2>
+                            <ul class="childList">
+                                <li>50以下</li>
+                                <li>50-70</li>
+                                <li>70-90</li>
+                                <li>90-110</li>
+                                <li>110-130</li>
+                                <li>130-150</li>
+                                <li>150-200</li>
+                                <li>200以上</li>
+                            </ul>
+                        </li>
+                        <li class="jj">
+                            <h2>标签</h2>
+                            <ul class="childList">
+                                <li>学区房</li>
+                                <li>地铁房</li>
+                                <li>不限购</li>
+                                <li>满两年</li>
+                                <li>满五唯一</li>
+                                <li>降价</li>
+                                <li>新上</li>
+                                <li>独家</li>
+                                <li>有钥匙</li>
+                            </ul>
+                        </li>
+                        <li class="qingkong">
+                            <p><a href="#">清空条件</a></p>
+                            <p><a href="#">确定</a></p>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-        </section> -->
+        </section>
     </section>
     <!-- 详情 -->
     <section class="jizhong">
@@ -213,3 +281,4 @@
 </body>
 
 </html>
+<script src="./js/tab.js"></script>
