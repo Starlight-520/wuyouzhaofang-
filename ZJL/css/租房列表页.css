@@ -154,6 +154,9 @@ header .box {
     position: relative;
 }
 
+.somlist .active h2 a {
+    color: #ff8a00;
+}
 
 .somlist li h2 span {
     border-top: 5px solid #b5b4b4;
@@ -165,8 +168,9 @@ header .box {
     right: -1.5rem;
 }
 
+
 /* 点击后三角的样式 */
-/* .somlist li h2 .active {
+.somlist .active h2 span {
     border-top: 5px solid transparent;
     border-right: 5px solid transparent;
     border-bottom: 5px solid #ff8a00;
@@ -175,7 +179,7 @@ header .box {
     top: 0rem;
     right: -1.5rem;
 
-} */
+}
 
 .bianhuan {
     color: #ff8a00 !important;
