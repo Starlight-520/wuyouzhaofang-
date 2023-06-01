@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆</title>
+    <link rel="stylesheet" href="./CSS/denglu.css">
+    <script src="./JS/setRem.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="box">
+            <img src="../image/index/logo.jpg" alt="">
+        </div>
+        <div class="box box1">
+            <div class="box2">
+                <img src="../image/index/my.jpg" alt="">
+            </div>
+            <div class="box2">
+                <img src="../image/index/xiazai.jpg" alt="">
+            </div>
+
+        </div>
+    </header>
+    <!-- 次导航 -->
+    <nav>
+        <p>
+            <a href="#"><span class="B">首页</span></a>
+            >
+            <a href="./woDeDL.html"><span class="chang">我的</span></a>
+            >
+            <a href="./denglu.html"><span class="cahng">登录</span></a>
+        </p>
+    </nav>
+    <!-- 内容 -->
+    <main>
+        <ul class="tab">
+            <li class="a1 active">普通登录</li>
+            <li class="a1">验证码快捷登录</li>
+        </ul>
+        <div class="box3">
+            <ul class="neiRong">
+                <li class="item">
+                    <input type="text" placeholder="请输入手机号码">
+                    <!-- <span class="date" onclick="shijian()">发送验证码</span> -->
+                </li>
+                <!-- <li class="item">
+                    <input type="text" placeholder="请输入短信中的验证码">
+                </li> -->
+                <li class="item">
+                    <input type="password" placeholder="请输入密码">
+                </li>
+            </ul>
+            <button class="zhuce">立即注册</button>
+            <div class="box4">
+                <a href="./zhuCe.html">立即注册</a>
+                <a href="./zhaoHuiMM.html">忘记密码</a>
+            </div>
+        </div>
+        <div class="box3 yinCang">
+            <ul class="neiRong">
+                <li class="item">
+                    <input type="text" placeholder="请输入手机号码">
+                    <span class="date" onclick="shijian()">发送验证码</span>
+                </li>
+                <li class="item">
+                    <input type="text" placeholder="请输入短信中的验证码">
+                </li>
+                <!-- <li class="item">
+                    <input type="password" placeholder="请输入密码">
+                </li> -->
+            </ul>
+            <button class="zhuce">验证并登录</button>
+            <div class="box4">
+                <a href="./zhuCe.html">立即注册</a>
+                <a href="./zhaoHuiMM.html">忘记密码</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
+<script src="./JS/date.js"></script>
+<script src="./JS/TAB.js"></script>
